@@ -24,7 +24,7 @@ public class StringOperate {
 		//返回"AB"在operateStr的第一次出现的索引位置  严格区分大小写
 		System.out.println(operateStr.indexOf("AB"));
 		
-		//将十进制数转换成字符型，返回该字符型在operateStr的第一次出现的索引位置 如果没有返回-1
+		//将unicode十进制数转换成字符型，返回该字符型在operateStr的第一次出现的索引位置 如果没有返回-1
 		System.out.println(operateStr.indexOf(65));//0
 		
 		//将字符串转换成IntStream
@@ -46,7 +46,7 @@ public class StringOperate {
 		//从前到后进行unicode比较 直到出现结果不为零停止
 		//字符串索引位与参数索引位比较
 		//小于返回负数差    等于返回0    大于返回正数差
-		//如果字串返回剩余没有对比的char字符数  多余返回正差异数    少于返回负差异数
+		//如果是子串返回剩余没有对比的char字符数  多余返回正差异数    少于返回负差异数
 		System.out.println(operateStr.compareTo("ABCD"));//22
 		
 		//与compareTo方法类似  对比忽略大小写
