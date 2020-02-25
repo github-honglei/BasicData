@@ -27,7 +27,7 @@ public class SetOperate {
 		treeSet.add(p2);
 		treeSet.add(p3);
 		treeSet.forEach(e ->{
-			System.out.println(e.getName()+"/"+e.getAge());
+			System.out.println(e.getName() + "/" + e.getAge());
 		});
 		
 		hashSet.add(p1);
@@ -43,6 +43,11 @@ public class SetOperate {
 		List<People> pList = new ArrayList<People>();
 		treeSet.addAll(pList);
 		hashSet.addAll(pList);
+		
+		
+		
+		
+		
 		
 		
 		
